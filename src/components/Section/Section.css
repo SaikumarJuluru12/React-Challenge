@@ -1,0 +1,29 @@
+/*
+ * Section css File
+*/
+ 
+
+@media only screen and (min-width: 600px) {
+    .subSection{
+        display: flex;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .subSection{
+        display: block;
+    }
+  }
+
+
+.SectionlogoContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.SectionlogoContainer>.header{
+    font-weight: 500;
+    font-size: larger;
+    margin: 0.5%;
+    letter-spacing: 1px;
+}

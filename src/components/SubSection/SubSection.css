@@ -1,0 +1,30 @@
+/*
+ * SubSection css File
+*/
+
+ 
+.ssContainer{
+    display: inline-block;
+    flex: auto;
+    /* height: 3em;
+    width: 3em; */
+    box-sizing: border-box;
+}
+.ssContainer>.stepNum{
+    font-size: 2em;
+    font-weight: 475;
+    letter-spacing: 2px;
+}
+.ssContainer>.divider{
+    border-top: 2px solid #47E4C2;
+    margin: 2% 40% 2% 40%;
+}
+.ssContainer>.title{
+    margin: 2%;
+    text-transform: uppercase; 
+}
+.ssContainer>.body{
+    font-size: 0.8em;
+    padding: 0% 18% 0% 25%;
+    overflow-wrap: break-word;
+}

@@ -1,0 +1,62 @@
+/*
+ * Article css File
+*/
+ 
+.ArticlelogoContainer{
+    height: 30em;
+    width: 100%;
+    margin-left: 0px;
+    background-size: cover !important;
+    background: url('../../assets/photo-couch_2x.jpg');
+} 
+
+.imgText{
+    position: absolute;
+    top: 12em;
+    left: 10em;
+    color: white;
+    text-align: left;
+}
+@media only screen and (max-width: 600px) {
+    .ArticlelogoContainer{ 
+        background-size: cover !important;
+        background: url('../../assets/photo-couch.jpg');
+    } 
+.imgText{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    text-align: left;
+}
+}
+.imgText>.title
+{
+    font-size: xx-large;
+    font-weight: 100;
+    padding: 2% 0% 4% 0%;
+    letter-spacing: 2px;
+}
+.imgText>.body
+{
+    font-size: 0.8em;
+}
+
+.imgText>.action{
+    border-radius: 1em;
+    font-size: x-small;
+    height: 2em;
+    background: #47E4C2;
+    padding: 2% 4% 5% 4%;
+    margin-top: 6%;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.imgText>.action:active,
+.imgText>.action:hover{
+    background-color:#31ba9c;
+}
